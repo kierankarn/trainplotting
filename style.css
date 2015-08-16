@@ -4,6 +4,7 @@ html {
 	padding:0;	
 	height:100%;
 	min-height:100%;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 *,
@@ -16,21 +17,22 @@ h1 {
 	margin:0;
 	padding-top:13px;
 	padding-left:13px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 [role=banner] {
-	background-color:red;
+	background-color:#104863;
 	height:60px;
 }
 
 [role=navigation] {
-	background-color:#d5d5d5;
+	background-color:#FFF200;
 	width:25%;
 	padding:20px;
 }
 
 #map {
-	background:yellow;
+	background:#A3B6DB;
 	width:75%;
 }
 [role=navigation],
