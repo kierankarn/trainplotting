@@ -30,15 +30,13 @@ var trainplotting = (function () {
 						map: map
 					}
 				);
+				$('.navigation ol').append('<li><a href="#uckfield">' + markerData.name + ' - <time>' + markerData.opened + '</time></a></li>')
 			},
 			plotMarkersToMap: function () {
 				// for (var i = 0; i < trainplotting.Data.length; i++) {
 				for (var i = 0; i < 10; i++) {
-					trainplotting.maps.addMarker({
-						lat:trainplotting.Data[i].lat,
-						lng:trainplotting.Data[i].lng
-					});
-				};
+					trainplotting.maps.addMarker(trainplotting.Data[i]);
+				}
 				
 			}
 
